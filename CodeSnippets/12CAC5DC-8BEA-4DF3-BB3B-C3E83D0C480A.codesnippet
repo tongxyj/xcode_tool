@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xattribute</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (NSMutableAttributedString*)attributedString
+{
+    //编辑可变字符
+    NSMutableAttributedString *attriString = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"尊享%zd大特权",_rightsResponse.rightsList.count] attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14],NSForegroundColorAttributeName:RGBA(&lt;#name#&gt;, &lt;#name#&gt;, &lt;#name#&gt;, 1)}];
+    //改变字体大小
+    [attriString addAttribute:NSFontAttributeName
+    value:[UIFont systemFontOfSize:&lt;#name#&gt;]
+    range:NSMakeRange(2,sDiscountCount.length)];
+    
+    return attriString;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>12CAC5DC-8BEA-4DF3-BB3B-C3E83D0C480A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>属性字符串</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

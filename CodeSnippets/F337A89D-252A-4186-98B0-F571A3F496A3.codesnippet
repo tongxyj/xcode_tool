@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xDebugUIEnd</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#ifdef DEBUGMODEL
+//***********************************************************************************************
+        //完成load刷新
+        [[MonitorManager monitorManager] endEventProjectParameter:parDic endEventName:@"&lt;#name#&gt;"];
+        if ([[MonitorManager monitorManager] getUIEventMonitorTimeCount].count &gt;= 5) {
+            NSMutableArray *monitorUIArr = [[MonitorManager monitorManager] getUIEventMonitorTimeCount];
+            [[MonitorManager monitorManager] startUIRequest:monitorUIArr];
+        }
+
+//***********************************************************************************************
+#endif</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F337A89D-252A-4186-98B0-F571A3F496A3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UI测试结束</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

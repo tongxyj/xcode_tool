@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xrequest</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#name#&gt; *&lt;#name#&gt; = [[&lt;#name#&gt; alloc] init];
+    __weak __typeof__(self) weakSelf = self;
+    [request startWithSuccessBlock:^(id responseObject, NSDictionary *options) {
+       
+    } failBlock:^(TCTNetworkError *error, NSDictionary *options) {
+        
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7E1851ED-A934-4884-BC3C-BB955B571600</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>发起请求</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
